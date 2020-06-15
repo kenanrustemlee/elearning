@@ -1,0 +1,228 @@
+body {
+  font-family: "Montserrat";
+}
+
+/* title */
+
+#title {
+  background: #32e0c4;
+  color: #393e46;
+}
+
+.container-fluid {
+  padding: 3% 15% 14%;
+}
+
+.image-title {
+  width: 100%;
+  transform: rotate(30deg);
+  position: absolute;
+  left: 7%;
+
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.col-lg-6 > h1
+{
+  font-family: 'Montserrat-black', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* navbar */
+
+#login {
+  color: #ffffff;
+}
+
+#signup {
+  color: #ffffff;
+  border: 1px solid #f8f8f8;
+  border-radius: 3px;
+  background-color: rgba(50,224,196,0.1);
+  transition: background-color 350ms ease-out, color;
+}
+
+#signup:hover {
+  color: #32e0c4;
+  background-color: #fff;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+
+}
+
+.navbar {
+  padding: 0 0 5.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  position: relative;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.ftrs {
+  text-align: center;
+  padding: 5%;
+}
+
+.ftrs h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.ftrs p {
+  color: #8f8f8f;
+}
+
+.ftrs i {
+  color: #32e0c4;
+  margin-bottom: 1rem;
+}
+
+.ftrs i:hover {
+  color: #393e46;
+}
+
+/* Testimonials */
+
+#testimonials {
+
+  text-align: center;
+  background-color: #eeeeee;
+  height: 25rem;
+}
+
+.testimonial-image {
+  padding: 2rem;
+  max-width: 15rem;
+  max-height: 6rem;
+}
+
+.testimonial-txt {
+  font-size: 1.1rem;
+}
+
+.carousel-item {
+    padding: 7% 18%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2332e0c4' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2332e0c4' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+
+/* press */
+
+#press {
+  background-color: #eeeeee;
+  text-align: center;
+  padding: 3% 3%;
+
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.testimonial-text {
+  padding: 1rem;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-body h2, h3,h2{
+  font-family: "Ubuntu";
+  font-weight: 900;
+}
+
+
+/* cta */
+
+#cta {
+  background-color: #32e0c4;
+  padding: 7% 25%;
+  text-align: center;
+
+}
+
+#cta h3 {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.cta-slogan {
+  text-decoration: line-through;
+  opacity: 0.5;
+
+}
+
+/* footer */
+
+#footer {
+  padding: 3% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.social-link {
+  color: #393e46;
+}
+
+.social-link:hover {
+  color: #32e0c4;
+}
+
+
+
+/* media queries */
+
+@media (max-width: 1024px) {
+  #title {
+    text-align: center;
+  }
+
+  .image-title {
+    position: static;
+    transform: rotate(0);
+
+  }
+}
